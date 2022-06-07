@@ -20,7 +20,15 @@
   
     <script>
       $(document).ready(function(){
-        $('.slider').bxSlider();
+        $('.slider').bxSlider({
+	mode: 'horizontal',
+	captions: true,
+	//slideidth: 600,
+	auto: true,
+	pager: true,
+	//speed: 100,
+	//controls: ture
+	})
      
       $('#galeria-fotos').magnificPopup({
 		delegate: 'a',
